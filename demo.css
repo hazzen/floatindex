@@ -1,0 +1,63 @@
+body {
+  font: 16px garamond,serif;
+  line-height: 20px;
+  color: #666;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.main {
+  width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.title, .body {
+  margin-left: 100px;
+}
+
+.index {
+  position: absolute;
+  width: 100px;
+  display: inline-block;
+}
+
+.title {
+  border-left: 1px solid transparent;
+  padding: 20px 0 20px 10px;;
+  font-size: 36px;
+  color: #444;
+}
+
+.body {
+  margin-left: 100px;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  width: 700px;
+}
+
+.body .section {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.body .section:last-child {
+  border-bottom: none;
+}
+
+.index {
+  margin-top: 10px;
+}
+
+.index .section {
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.index .section:first-child {
+  border-top: 1px solid #ccc;
+}
+
